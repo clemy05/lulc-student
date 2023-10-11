@@ -4,6 +4,8 @@ import pandas as pd
 from flask import Flask, request, render_template
 from sklearn import preprocessing
 import pickle
+from fcntl import ioctl
+
 
 # Initialize an app
 app = Flask(__name__)
